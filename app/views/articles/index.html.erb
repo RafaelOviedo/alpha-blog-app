@@ -1,6 +1,8 @@
 <h1 class="text-center mt-4">Articles listing page</h1>
 
+<%= will_paginate @articles, class: 'flickr_pagination' %>
 <%= render 'article' %>
+<%= will_paginate @articles, class: 'flickr_pagination mt-4' %>
 
 <br>
 
